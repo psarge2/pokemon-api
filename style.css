@@ -20,15 +20,16 @@ body {
 }
 .pokemon {
     background: #f1f1f1;
-    min-width: 180px;
+    min-width: 280px;
     text-align: center;
     padding: 25px;
     border-radius: 6px;
     border: 10px #f8d41f solid;
-    box-shadow: 1px 2 px 4 px rgba(0, 0, 0 , 0.5);
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #d7f2fd;
 }
 .pokemon.name {
-    font-size: 3em;
+    font-size: 4em;
     text-transform: capitalize;
     font-weight: bold;
     color: #333
